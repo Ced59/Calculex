@@ -1,0 +1,6 @@
+@Calculex_HostAddress = http://localhost:5148
+
+GET {{Calculex_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
