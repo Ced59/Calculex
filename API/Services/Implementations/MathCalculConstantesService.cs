@@ -4,7 +4,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
-using Services.Interfaces;
+using Services.Interfaces.Maths;
 
 namespace Services.Implementations
 {

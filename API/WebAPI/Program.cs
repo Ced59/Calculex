@@ -1,7 +1,7 @@
 
 using Microsoft.OpenApi.Models;
 using Services.Implementations;
-using Services.Interfaces;
+using Services.Interfaces.Maths;
 using System.Reflection;
 
 namespace Calculex
@@ -30,6 +30,7 @@ namespace Calculex
 
             // Injection des services
             builder.Services.AddScoped<IMathCalculConstantesService, MathCalculConstantesService>();
+            builder.Services.AddScoped<IMathCalculAlgebreService, MathCalculAlgebreService>();
 
             var app = builder.Build();
 

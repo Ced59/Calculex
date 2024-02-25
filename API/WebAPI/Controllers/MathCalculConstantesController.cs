@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Services.Interfaces;
+using Services.Interfaces.Maths;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace WebAPI.Controllers
 {
     /// <summary>
-    /// Initialise la classe MathController.
+    /// Initialise la classe MathCalculConstantesController.
     /// </summary>
-    /// <param name="service">Le MathService à utiliser.</param>
-    [Route("api/maths")]
+    /// <param name="service">Le MathCalculConstantesService à utiliser.</param>
+    [Route("api/maths/constantes")]
     [ApiController]
     public class MathCalculConstantesController(IMathCalculConstantesService service) : ControllerBase
     {

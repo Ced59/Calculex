@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Interfaces
+namespace Services.Interfaces.Maths
 {
     public interface IMathCalculConstantesService
     {
